@@ -26,13 +26,13 @@ DB_CONFIG = {
     # zpb-product
     'zpb':
     {
-        'type': 'mysql', 'host': '10.1.1.121', 'port': 3306, 'user': 'helper_user',
-        'passwd': 'fas@kd$29l@k2l', 'db': 'hr_helper', 'persistent': False
+        'type': 'mysql', 'host': '192.168.1.1', 'port': 3306, 'user': 'root',
+        'passwd': 'root', 'db': 'hr_helper', 'persistent': False
     },
     # zpb-test
     'zpb-test':
     {
-        'type': 'mysql', 'host': '192.168.1.155', 'port': 3306, 'user': 'root',
+        'type': 'mysql', 'host': '192.168.1.1', 'port': 3306, 'user': 'root',
         'passwd': 'root', 'db': 'hr_helper', 'persistent': False
     }
 }
