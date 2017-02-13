@@ -20,13 +20,7 @@ from zpb.service.authservice import AuthService
 class SiteConfig(object):
 
     _SITE = {
-        1: {'name': u'前程无忧', 'module': 'zpb.business.wyjob.WYJobHandlerManager', 'class': 'WYJobHandlerManager'},
-        2: {'name': u'智联招聘', 'module': 'zpb.business.rd2.RD2HandlerManager',     'class': 'RD2HandlerManager'},
-        3: {'name': u'拉勾',     'module': 'zpb.business.lag.LAGHandlerManager',     'class': 'LAGHandlerManager'},
-        4: {'name': u'人才热线', 'module': 'zpb.business.cjol.CJOLHandlerManager',   'class': 'CJOLHandlerManager'},
-        5: {'name': u'58同城',   'module': 'zpb.business.wuba.wubahandlermanager',   'class': 'WubaHandlerManager'},
-        6: {'name': u'赶集网',   'module': 'zpb.business.ganj.ganjhandlermanager',   'class': 'GanJHandlerManager'},
-        7: {'name': u'猎聘网',   'module': 'zpb.business.liep.liephandlermanager',   'class': 'LiePHandlerManager'},
+        
     }
 
     @staticmethod
