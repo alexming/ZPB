@@ -41,9 +41,7 @@ class XRequest(urllib2.Request, object):
 
     @property
     def meta(self):
-        if self._meta is None:
-            self._meta = {}
-        return self._meta
+        return self._meta or {}
 
 
     def call(self, data=None):
